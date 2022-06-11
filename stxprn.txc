@@ -1,0 +1,7 @@
+main
+{
+txstr comline;
+	txuiSave(text);
+	comline = "D:\\DOC\\tools\\stxprn\\STXPRN.EXE" + "\s\"" + pathSetFull(text->szfilename) + "\"\s"+ inttostr(text->width) + "\s" + "40";
+	CommandExec(comline);
+}

@@ -1,0 +1,5 @@
+	cut;
+	insert "\x15";
+	insert "\x15";
+	left;
+	paste;

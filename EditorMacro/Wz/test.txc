@@ -1,0 +1,16 @@
+TML-Version: 1.0
+
+main
+{
+    txuiSave(text);
+    CommandExec("stxprn \"" + szfilename + "\" " + inttostr(configWidth));
+}
+
+ctrlb
+{
+    txSelectCopyDelete(text);
+    txInsertChar(text,'\b');
+    txInsertChar(text,'\b');
+    txLeft(text);
+    txSelectPaste(text);
+}
