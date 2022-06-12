@@ -1,5 +1,0 @@
-	cut;
-	insert "\x02";
-	insert "\x02";
-	left;
-	paste;

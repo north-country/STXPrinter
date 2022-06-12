@@ -1,9 +1,9 @@
 object AboutStx: TAboutStx
   Left = 325
   Top = 182
-  Width = 243
-  Height = 253
   Caption = 'About Stx Printer'
+  ClientHeight = 214
+  ClientWidth = 227
   Color = clBtnFace
   Font.Charset = SHIFTJIS_CHARSET
   Font.Color = clWindowText
@@ -60,10 +60,10 @@ object AboutStx: TAboutStx
   end
   object Label2: TLabel
     Left = 64
-    Top = 72
+    Top = 70
     Width = 125
     Height = 12
-    Caption = 'Copyright (c) 1995-2003'
+    Caption = 'Copyright (c) 1995-2022'
   end
   object Label3: TLabel
     Left = 64
@@ -72,19 +72,19 @@ object AboutStx: TAboutStx
     Height = 12
     Caption = 'Tatsuro Hokugo'
   end
-  object Label4: TLabel
-    Left = 16
-    Top = 128
-    Width = 191
-    Height = 12
-    Caption = 'This Program uses OleDND Ver 1.01 '
-  end
   object Label5: TLabel
-    Left = 0
-    Top = 144
-    Width = 232
+    Left = 22
+    Top = 126
+    Width = 167
     Height = 12
-    Caption = 'Copyright (c) 2001-2002, NAKAGUCHI Takao'
+    Caption = 'using TplPrev and TplSetPrinter '
+  end
+  object Label4: TLabel
+    Left = 80
+    Top = 144
+    Width = 65
+    Height = 12
+    Caption = 'by Mr. XRAY'
   end
   object AboutClose: TButton
     Left = 80

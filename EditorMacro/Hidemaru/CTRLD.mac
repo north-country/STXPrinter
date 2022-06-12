@@ -1,5 +1,0 @@
-	cut;
-	insert "\x04";
-	insert "\x04";
-	left;
-	paste;

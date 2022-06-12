@@ -1,6 +1,0 @@
-save;
-// message("stxprn \"" + filename + "\" " + str(width));
-runsync2 "stxprn \"" + filename + "\" " + str(width);
-if (!result) {
-   message "‹N“®‚ÉŽ¸”s‚µ‚Ü‚µ‚½";
-}

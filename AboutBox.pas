@@ -13,8 +13,8 @@ type
     Image1: TImage;
     Label2: TLabel;
     Label3: TLabel;
-    Label4: TLabel;
     Label5: TLabel;
+    Label4: TLabel;
     procedure AboutCloseClick(Sender: TObject);
   private
     { Private êÈåæ }

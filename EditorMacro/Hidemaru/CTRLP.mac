@@ -1,5 +1,0 @@
-	cut;
-	insert "\x10";
-	insert "\x10";
-	left;
-	paste;
